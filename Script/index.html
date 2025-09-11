@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="head">this is the first headline</h1>
+
+    <p id="para" style="font-size:1.5rem; font-weight: 500;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quod expedita, corrupti explicabo quisquam mollitia officiis dolor, alias, blanditiis sit totam. Accusantium sit repellendus voluptates est aliquam nulla porro deserunt ipsum facere numquam. Dolor in odio provident expedita iure quis veritatis cupiditate magnam dignissimos ea excepturi, impedit ad possimus placeat?</p>
+     <button class="click">click</button>
+    <button id="start">start</button>
+    <button id="stop">stop</button>
+</body>
+<script>
+   const changetext = function(){
+       document.querySelector(".click").addEventListener('click' , function(){
+           document.querySelector('h1').innerHTML = "this is second headline after using setTimeout"
+       })
+   }
+   setTimeout(changetext , 5000)
+   const changeMe = setTimeout(changetext , 2000)
+   document.querySelector(".stop").addEventListener('click' , function(){
+       clearTimeout(changeMe)
+       console.log('STOPPED')
+   })
+
+    
+</script>
+</html>

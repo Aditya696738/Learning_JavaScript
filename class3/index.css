@@ -1,0 +1,41 @@
+#myBox{
+    background-color: rgb(109, 235, 235);
+    height:200px;
+    width:300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 4rem;
+    font-weight: 400;
+}
+.container{
+    display: flex;
+    gap:1000px;
+}
+#modeButton{
+    margin:10px;
+    height: 40px;
+    background-color: black;
+    color: aliceblue;
+    border: 5px solid black;
+    border-radius:10px;
+    font-size: 1rem;
+}
+
+h1{
+    font-size:3rem;
+    text-align: center;
+}
+p{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.dark{
+    background-color: black;
+    color:white;
+}
+.light{
+    background-color:white;
+    color: black;
+}

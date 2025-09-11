@@ -1,0 +1,48 @@
+#red{
+    height:100px;
+    width: 100px;
+    background-color: red;
+    color:yellow;
+    border:2px solid black;
+}
+#green{
+    height:100px;
+    width: 100px;
+    background-color: rgb(10, 247, 93);
+    border:2px solid black;
+}
+#black{
+    height:100px;
+    width: 100px;
+    background-color: rgb(2, 2, 2);
+    border:2px solid black;
+}
+#pink{
+    height:100px;
+    width: 100px;
+    background-color: pink;
+    border:2px solid black;
+}
+#violet{
+    height:100px;
+    width: 100px;
+    background-color: violet;
+    border:2px solid black;
+}
+
+h1{
+    font-style: italic;
+    font-size: 3rem;
+    text-align: center;
+}
+
+p{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
